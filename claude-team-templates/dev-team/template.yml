@@ -1,0 +1,32 @@
+description: "General-purpose development team for full development workflow"
+
+members:
+  - name: explorer
+    agent: codebase-explorer
+    description: "Investigates the codebase — architecture, patterns, file locations, dependencies"
+    color: cyan
+
+  - name: debugger
+    agent: debugger
+    description: "Diagnoses bugs by reading logs, querying APIs/databases, tracing execution. Cooperates with explorer"
+    color: red
+
+  - name: unit-tester
+    agent: unit-tester
+    description: "Writes focused unit tests with TDD best practices. Covers happy paths, edge cases, error cases"
+    color: yellow
+
+  - name: implementer
+    agent: implementer
+    description: "Writes clean production code. Implements features, fixes bugs, refactors"
+    color: green
+
+  - name: reviewer
+    agent: reviewer
+    description: "Reviews code and tests for correctness, security, quality. Reports issues, does not fix them"
+    color: purple
+
+  - name: integration-tester
+    agent: integration-tester
+    description: "Writes integration/e2e tests. Tests real component interactions. Tries to break things"
+    color: orange

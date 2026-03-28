@@ -1,3 +1,4 @@
-# Personal Anthropic Skills
+# My AI Tooling
 
-Personal agent skills for extending Claude/Microsoft agents with specialized knowledge and workflows.
+Some AI tooling that I have made and use. Currently its claude based, because i use that mostly.
+
